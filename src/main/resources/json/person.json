@@ -1,0 +1,22 @@
+{
+  "persons": [
+    {
+      "code": "registra",
+      "firstName": "Santiago",
+      "lastName": "Martinez",
+      "email": "santiago.martinez@hotmail.com",
+      "age": "29",
+      "salary": "2000",
+      "department": "Automation"
+    },
+    {
+      "code": "eliminar",
+      "firstName": "Kierra",
+      "lastName": "Gentry",
+      "email": "kierra@example.com",
+      "age": "29",
+      "salary": "2000",
+      "department": "Legal"
+    }
+  ]
+}
