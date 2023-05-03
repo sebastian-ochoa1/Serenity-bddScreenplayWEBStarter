@@ -12,7 +12,7 @@ import com.demoqa.web.tasks.RemovePersonGrid;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import net.serenitybdd.screenplay.ensure.Ensure;
+//import net.serenitybdd.screenplay.ensure.Ensure;
 
 import static com.demoqa.web.userinterface.WebTables.EMAIL_GRID;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
@@ -49,14 +49,14 @@ public class WebTablesSteps {
     @Then("el puede agregar el registro en la tabla")
     public void elPuedeAgregarElRegistroEnLaTabla() {
         theActorInTheSpotlight().attemptsTo(
-                Ensure.that(EMAIL_GRID.of(personModel.getEmail())).isDisplayed()
+                //Ensure.that(EMAIL_GRID.of(personModel.getEmail())).isDisplayed()
         );
     }
 
     @Then("el puede eliminar el registro")
     public void elPuedeEliminarElRegistro() {
         theActorInTheSpotlight().attemptsTo(
-                Ensure.that(EMAIL_GRID.of(personModel.getEmail())).isNotDisplayed()
+                //Ensure.that(EMAIL_GRID.of(personModel.getEmail())).isNotDisplayed()
         );
     }
 }

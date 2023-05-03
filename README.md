@@ -6,12 +6,12 @@ Para la obtencion de los datos se utilizaron archivos JSON.
 
 # Pre-requisitos 📋
 Tener instalado :
-- Gradle version 7.3.3
+- Gradle version 8.1
 - Java version 11
 
 # Ejecución ⚙️
 - El proyecto se encuentra configurado para ejecutarse en un sistema operativo Mac, con el navegador chrome (version 99 )
-- El proyecto se encuentra configurado para ejecutarse en un sistema operativo Windows, con el navegador chrome (version 101 )
+- El proyecto se encuentra configurado para ejecutarse en un sistema operativo Windows, con el navegador chrome (version 113 )
 - En caso de requerir ejecutar el proyecto bajo otro sistema operativo, debe agregar los respectivos WebDriver en la carpeta correspondiente que se encuentra dentro de **"src/test/resources/webdriver"** y ccnfigurar la ruta en **"src/test/resources/serenity.conf"** 
 - Para ejecutar los tres flujos basta con abrir una terminal de comandos, ubicarse en la carpeta donde haya alojado el proyecto y posterior a ello ejecutar el comando :
 
